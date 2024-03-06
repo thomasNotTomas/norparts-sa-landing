@@ -9,7 +9,9 @@ function Header() {
                                     sm:justify-between
                                     sm:items-center
                                     py-12
-                                    xl:py-6">
+                                    xl:py-6
+                                    max-w-7xl
+                                    mx-auto">
           <img src="/norparts-sa-logo.svg" alt="Logo" />
           <div id="Navigation" className="hidden sm:flex space-x-6 md:space-x-12">
             <NavItem text='Servicios' icon='./icons/services-brand.svg'></NavItem>
