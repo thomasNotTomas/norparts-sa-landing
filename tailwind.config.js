@@ -26,6 +26,10 @@ export default {
       },
       fontFamily: {
         'sans': ['Work Sans', 'sans-serif'],
+      },
+      backgroundImage: {
+        'white-texture': "url('/background-texture.png')",
+        'agro-banner': "url('/banners/agro-banner.png')",
       }
     }
   },
