@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./components/Header"
 import Landing from "./components/sections/Landing"
+import MobileMenu from "./components/navigation/MobileMenu"
 
 
 
@@ -17,6 +18,9 @@ function App() {
           <Header></Header>
           <Landing></Landing>
           
+      </div>
+      <div className="font-sans">
+      <MobileMenu></MobileMenu>
       </div>
     </>
   )

@@ -6,15 +6,15 @@ function Header() {
     return(
 
         <div id="Header" className="flex justify-center
-                                    md:justify-between
-                                    md:items-center
+                                    sm:justify-between
+                                    sm:items-center
                                     py-12
                                     xl:py-6">
           <img src="/norparts-sa-logo.svg" alt="Logo" />
-          <div id="Navigation" className="hidden md:flex space-x-12">
-            <NavItem text='Areas' icon='./icons/tool-icon.png'></NavItem>
-            <NavItem text='Productos' icon='./icons/product-icon.png'></NavItem>
-            <NavItem text='Servicios' icon='./icons/service-icon.png'></NavItem>
+          <div id="Navigation" className="hidden sm:flex space-x-6 md:space-x-12">
+            <NavItem text='Servicios' icon='./icons/services-brand.svg'></NavItem>
+            <NavItem text='Productos' icon='./icons/product-brand.svg'></NavItem>
+            <NavItem text='Contacto' icon='./icons/contact-brand.svg'></NavItem>
           </div>
         </div>
 
