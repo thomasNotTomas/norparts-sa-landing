@@ -9,8 +9,8 @@ function NavItem( { text, icon } ) {
                         items-center 
                         text-md sm:text-xl font-base sm:font-semibold text-white sm:text-brand-700 md:hover:text-brand-900 transition-all ease-in-out 500ms
                         cursor-pointer">
-            <img src={icon} className="h-6 w-6" alt="" />
-            <h3> {text} </h3>
+            <img src={icon} className="h-5 w-5 md:h-8 md:w-8" alt="" />
+            <h3 className="text-sm md:text-lg"> {text} </h3>
         </div>
 
     )

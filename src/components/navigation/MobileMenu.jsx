@@ -13,6 +13,7 @@ function MobileMenu() {
                         sm:hidden
                         text-white">
             <div id="container" className="flex sm:hidden space-x-8">
+                <NavItem text='Areas' icon='./icons/truck-white.svg'></NavItem>
                 <NavItem text='Servicios' icon='./icons/services-white.svg'></NavItem>
                 <NavItem text='Productos' icon='./icons/product-white.svg'></NavItem>
                 <NavItem text='Contacto' icon='./icons/contact-white.svg'></NavItem>

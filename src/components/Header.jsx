@@ -14,6 +14,7 @@ function Header() {
                                     mx-auto">
           <img src="/norparts-sa-logo.svg" alt="Logo" />
           <div id="Navigation" className="hidden sm:flex space-x-6 md:space-x-12">
+            <NavItem text='Areas' icon='./icons/truck-brand.svg'></NavItem>
             <NavItem text='Servicios' icon='./icons/services-brand.svg'></NavItem>
             <NavItem text='Productos' icon='./icons/product-brand.svg'></NavItem>
             <NavItem text='Contacto' icon='./icons/contact-brand.svg'></NavItem>

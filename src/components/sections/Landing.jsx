@@ -5,7 +5,7 @@ function Landing() {
 
     return(
 
-        <div className="flex items-center justify-center pb-20 w-full">
+        <div className="flex items-center justify-center pb-16 w-full">
           <LandingBanner></LandingBanner>
           <img src="./truck-banner.png" alt="Tractor" 
                className="hidden 
