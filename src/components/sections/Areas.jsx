@@ -7,7 +7,7 @@ function Areas() {
 
     return(
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl px-6 mx-auto">
             
             <h2 className="text-2xl text-brand-900 font-semibold">AREAS EN LAS QUE TRABAJAMOS</h2>
             <Bar></Bar>

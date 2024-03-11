@@ -6,7 +6,7 @@ function Services() {
 
     return(
 
-        <div className="max-w-7xl mx-auto pb-96">
+        <div className="max-w-7xl px-6 mx-auto">
             <h2 className="text-2xl text-brand-900 font-semibold">ALGUNOS SERVICIOS QUE OFRECEMOS SON</h2>
             <Bar></Bar>
             <div className="space-y-2 md:space-y-0 md:space-x-2 md:flex">
