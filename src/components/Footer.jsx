@@ -5,7 +5,7 @@ function Footer() {
 
     return(
 
-        <div className="flex flex-col w-fit md:flex-row items-center py-12 md:space-x-24 space-y-16  pb-32 text-sm">
+        <div className="flex flex-col w-fit md:flex-row items-center py-12 md:space-x-24 space-y-16  pb-32 text-sm text-brand-900">
             <div className="flex flex-col  space-y-4">
                 <img src="/norparts-sa-logo.svg" alt="" className="w-52" />
                 <p className="text-brand-900 text-center w-52">Desde 1984 brindando calidad y profesionalismo</p>

@@ -4,10 +4,8 @@ import Landing from "./components/sections/Landing"
 import MobileMenu from "./components/navigation/MobileMenu"
 import Areas from "./components/sections/Areas"
 import Services from "./components/sections/Services"
-import Bar from "./components/navigation/Bar"
-import Products from "./components/sections/Products"
 import Footer from "./components/Footer"
-
+import ProductsBrands from "./components/sections/ProductsBrands"
 
 
 function App() {
@@ -24,6 +22,7 @@ function App() {
           <Landing></Landing>
           <Areas></Areas>
           <Services></Services>
+          <ProductsBrands></ProductsBrands>
           <div className="w-full flex flex-col items-center justify-center">
           <div className="py-4 flex w-full">
             <div className="h-px bg-brand-700 w-full"></div>
